@@ -1,0 +1,32 @@
+body {
+    background-color: grey;
+}
+
+ul {
+  list-style:none;
+  
+}
+
+a {
+  text-decoration:none; 
+  color: #000; 
+  font-weight:bold; 
+  
+}
+
+
+li {
+  display:inline;
+  border-radius: 20px; 
+  background-color: blue;
+  float:right;
+  border-right: #000;
+}
+
+li:last-child {
+  border-right:none;
+}
+
+li:hover {
+ background-color:blue;
+}
